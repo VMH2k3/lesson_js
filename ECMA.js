@@ -80,3 +80,11 @@
 // }
 
 // obj.number.obj2?.number2
+
+
+//thực hành lại
+var boxElement = document.querySelector('.box');
+boxElement.classList.add('red', 'blue');
+setInterval(() => {
+boxElement.classList.toggle('red');
+},1000)
